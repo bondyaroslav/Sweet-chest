@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-color: bisque; /*delete in future*/
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #081130;
+    color: whitesmoke;
+    background-image: linear-gradient(45deg, #000614, #0D1949);
+}
+
+#company-name {
+
+}
+
+#address {
+    flex-wrap: nowrap;
+}
+
+#telephone {
+    flex-wrap: nowrap;
+}
+
+#background-img {
+    width: 100%;
+}
+
+main {
+    background: url("background.png");
+
+}
