@@ -24,7 +24,6 @@ header {
     align-items: center;
     font-family: Montserrat;
     font-size: 21px;
-
 }
 #address-and-telephone {
     display: flex;
@@ -107,18 +106,20 @@ p {
 }
 
 #header-main h1{
-    margin: 0;
+    margin: 10px 0 0 0;
 }
 
 #we-will-prepare {
     font-family: Montserrat;
     font-size: 24px;
+    margin-top: 20px;
 }
 
 #catalog-button {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 35px;
 }
 
 .button {
@@ -131,9 +132,17 @@ p {
     font-size: 18px;
 }
 
+.button:hover {
+    transition: background-color 0.3s;
+    background-color: aqua;
+}
+
 #nine-diff-kinds {
+    display: flex;
     font-family: Montserrat;
     font-size: 15px;
+    padding-left: 20px;
+
 }
 
 
