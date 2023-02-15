@@ -5,7 +5,7 @@ body {
 }
 #wrapper {
     margin: 0;
-    min-height: 1000px;
+    min-height: 1180px;
     width: 100%;
     height: 100%;
     background: url("img/wrapper img/background-mod.jpeg") no-repeat center;
@@ -149,33 +149,70 @@ p {
 
 #catalog {
     display: flex;
-    color: black;
+    flex-direction: column;
+    align-items: center;
     background-color: #FFFFFF;
 }
 
 #catalog-header {
-
+    font-family: Montserrat;
+    font-size: 30px;
+    color: #2E363E;
+}
+#catalog-header h1{
+    font-weight: normal;
 }
 
 .catalog-item {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
     border: 1px solid black;
     border-radius: 10px;
-    width: 300px;
-    height: 450px;
+    width: 370px;
+    height: 500px;
+}
+
+.catalog-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    height: 300px;
+}
+
+.catalog-item-name-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .catalog-item-img {
     width: 100%;
-    height: 100%;
+    height: 40%;
     background-image: url("img/catalog-img/img 1.png");
+    border-radius: 10px 10px 0 0;
     background-size: cover;
 }
 
+.catalog-item-name {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 24px;
+    color: #2E363E;
+}
 
+.catalog-item-description {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 16px;
+    color: #2E363E;
+}
+
+.catalog-item-price {
+    font-family: Montserrat;
+    font-size: 24px;
+    color: #434B53;
+}
 
 
 

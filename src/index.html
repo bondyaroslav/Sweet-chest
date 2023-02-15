@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.11.0/build/cssnormalize-context/cssnormalize-context-min.css">
+    <link rel="stylesheet" type="text/css"
+          href="http://yui.yahooapis.com/3.11.0/build/cssnormalize-context/cssnormalize-context-min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
     <title>Sweet chest</title>
 </head>
 <body>
@@ -18,7 +20,8 @@
 
         <div id="address-and-telephone">
             <div id="address">
-                <img id="address-image" src="img/wrapper%20img/address.png"> <p>address</p>
+                <img id="address-image" src="img/wrapper%20img/address.png">
+                <p>address</p>
             </div>
 
             <div id="contact-info">
@@ -26,7 +29,8 @@
                     <img id="telephone-image" src="img/wrapper%20img/telephone.png">
                 </div>
                 <div id="tel-number-info">
-                    <p id="telephone">0 (050) 000-00-00</p> <p id="work-time">Daily from 9:00 to 20:00</p>
+                    <p id="telephone">0 (050) 000-00-00</p>
+                    <p id="work-time">Daily from 9:00 to 20:00</p>
                 </div>
             </div>
         </div>
@@ -46,7 +50,7 @@
         </div>
 
         <div id="go-to-catalog-button">
-            <button class="button">Go to catalog</button>
+            <button class="button" onclick="transportPage()">Go to catalog</button>
             <p id="nine-diff-kinds">9 different kinds to choose from</p>
         </div>
     </div>
@@ -59,18 +63,17 @@
     <div id="products">
         <div class="catalog-item">
             <div class="catalog-item-img"></div>
+            <div class="catalog-item-wrapper">
                 <div class="catalog-item-name-group">
                     <div class="catalog-item-name">Cream castle</div>
                     <div class="catalog-item-description">Delicate cream of any color to choose from, waffle base</div>
                 </div>
                 <div class="catalog-item-price">$2/pc.</div>
                 <button class="button">Order</button>
-                <div class="catalog-item-wrapper">
             </div>
         </div>
     </div>
 </div>
-
 
 
 </body>
