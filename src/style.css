@@ -1,7 +1,7 @@
 body {
     margin: 0;
     color: whitesmoke;
-    background-color: black;
+    background-color: bisque;
     font-family: Montserrat;
 }
 #wrapper {
@@ -240,7 +240,11 @@ p {
 
 
 #load-photo {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 1000px;
+    background-color: #11162B;
 }
 
 .top-image {
@@ -253,18 +257,46 @@ p {
     position: relative;
 }
 
-.telephone-image {
+.content-telephone-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.telephone-image {
+    margin: 0;
+    min-height: 1100px;
+    width: 55%;
+    height: 100%;
+    background: url("img/upload-img/telephone.png") no-repeat bottom;
+    background-size: cover;
+    position: relative;
+    top: 300px;
+    z-index: 1;
+}
+
+.download-photo-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+.header-main {
+    width: 60%;
+}
+.upload-photo {
+    width: 50%;
 }
 
 .bottom-image {
     margin: 0;
-    min-height: 200px;
+    min-height: 300px;
     width: 100%;
     height: 100%;
     background: url("img/upload-img/bot.png") no-repeat bottom;
     background-size: cover;
     position: relative;
+    z-index: 2;
 }
 
 
