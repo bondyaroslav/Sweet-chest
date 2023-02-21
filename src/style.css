@@ -4,7 +4,7 @@ body {
     background-color: bisque;
     font-family: Montserrat;
 }
-#wrapper {
+.wrapper {
     margin: 0;
     min-height: 1180px;
     width: 100%;
@@ -20,20 +20,20 @@ header {
     min-height: 100px;
     border-bottom: 1px solid #11162B;
 }
-#logo {
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 21px;
 }
-#address-and-telephone {
+.contact-wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-around;
 }
-#address {
+.contact-wrapper__address {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -42,30 +42,39 @@ header {
     margin-right: 50px;
     font-size: 13px;
 }
-#address-image{
-    width: 18px;
+.address-image {
+    background: url("img/wrapper-img/address.png") no-repeat center;
+    background-size: contain;
+    width: 20px;
     height: 25px;
+    padding-right: 20px;
 }
-#contact-info {
+.contact-info {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     min-width: 10vh;
 }
-#tel-number-info{
-    margin-left: 10px;
+.contact-info__image {
+    background: url("img/wrapper-img/telephone.png") no-repeat center;
+    background-size: contain;
+    width: 20px;
+    height: 25px;
+    padding-right: 20px;
 }
-#telephone {
+
+
+.telephone {
     font-weight: bold;
     font-size: 20px;
 }
-#telephone-image {
+.contact-info__image {
     display: flex;
     align-content: flex-start;
     width: 22px;
     height: 22px;
 }
-#work-time {
+.work-time {
     font-size: 13px;
 }
 p {
@@ -74,7 +83,7 @@ p {
 
 
 
-#main {
+.main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -84,7 +93,7 @@ p {
     margin-top: 8%;
 }
 
-#delicious {
+.main__item {
     display: flex;
     color: #2E363E;
     background-color: #F2F6FA;
@@ -96,21 +105,21 @@ p {
     justify-content: center;
 }
 
-#header-main{
+.main-header {
     font-size: 25px;
     font-weight: bold;
 }
 
-#header-main h1{
+.main__header h1{
     margin: 10px 0 0 0;
 }
 
-#we-will-prepare {
+.main__text {
     font-size: 24px;
     margin-top: 20px;
 }
 
-#go-to-catalog-button {
+.main__button {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -136,7 +145,7 @@ p {
     color: gold;
 }
 
-#nine-diff-kinds {
+.button__text {
     display: flex;
     font-size: 15px;
     max-width: 40%;
@@ -176,8 +185,8 @@ p {
     display: flex;
     flex-direction: column;
     width: 370px;
-    height: 550px;
-    margin-bottom: 2%;
+    height: 500px;
+    margin-bottom: 25px;
     border-radius: 10px;
 }
 .catalog-item:hover {
