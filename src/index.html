@@ -2,12 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css"
-          href="http://yui.yahooapis.com/3.11.0/build/cssnormalize-context/cssnormalize-context-min.css">
     <link rel="stylesheet" href="style.css">
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,100&subset=latin,cyrillic' rel='stylesheet'
+          type='text/css'>
     <script src="index.js"></script>
     <title>Sweet chest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
 <div class="wrapper">
     <header>
@@ -57,13 +61,13 @@
     </div>
 </div>
 
-<div id="catalog">
-    <div id="catalog-header">
+<div class="catalog">
+    <div class="catalog__header">
         <h1>For any events and people dear to you</h1>
     </div>
 
-    <div id="products">
-        <div class="catalog-item">
+    <div class="products">
+        <div class="products__item">
             <div class="catalog-item-img" id="img-1"></div>
             <div class="catalog-item-wrapper">
                 <div class="catalog-item-name-group">
@@ -75,7 +79,7 @@
             </div>
         </div>
 
-        <div class="catalog-item">
+        <div class="products__item">
             <div class="catalog-item-img" id="img-2"></div>
             <div class="catalog-item-wrapper">
                 <div class="catalog-item-name-group">
@@ -87,7 +91,7 @@
             </div>
         </div>
 
-        <div class="catalog-item">
+        <div class="products__item">
             <div class="catalog-item-img" id="img-3"></div>
             <div class="catalog-item-wrapper">
                 <div class="catalog-item-name-group">
@@ -99,7 +103,7 @@
             </div>
         </div>
 
-        <div class="catalog-item">
+        <div class="products__item">
             <div class="catalog-item-img" id="img-4"></div>
             <div class="catalog-item-wrapper">
                 <div class="catalog-item-name-group">
@@ -111,7 +115,7 @@
             </div>
         </div>
 
-        <div class="catalog-item">
+        <div class="products__item">
             <div class="catalog-item-img" id="img-5"></div>
             <div class="catalog-item-wrapper">
                 <div class="catalog-item-name-group">
@@ -123,7 +127,7 @@
             </div>
         </div>
 
-        <div class="catalog-item">
+        <div class="products__item">
             <div class="catalog-item-img" id="img-6"></div>
             <div class="catalog-item-wrapper">
                 <div class="catalog-item-name-group">
@@ -135,7 +139,7 @@
             </div>
         </div>
 
-        <div class="catalog-item">
+        <div class="products__item">
             <div class="catalog-item-img" id="img-7"></div>
             <div class="catalog-item-wrapper">
                 <div class="catalog-item-name-group">
@@ -147,7 +151,7 @@
             </div>
         </div>
 
-        <div class="catalog-item">
+        <div class="products__item">
             <div class="catalog-item-img" id="img-8"></div>
             <div class="catalog-item-wrapper">
                 <div class="catalog-item-name-group">
@@ -159,7 +163,7 @@
             </div>
         </div>
 
-        <div class="catalog-item">
+        <div class="products__item">
             <div class="catalog-item-img" id="img-9"></div>
             <div class="catalog-item-wrapper">
                 <div class="catalog-item-name-group">
@@ -179,7 +183,7 @@
 
     <div class="download-photo-wrapper">
         <div class="download-photo-content">
-            <div id="Didn't-find">
+            <div class="didn't-find">
                 <p>Didn't find what you need?</p>
             </div>
             <div class="header-main">
@@ -197,10 +201,30 @@
     <div class="bottom-image"></div>
 </div>
 
-<div id="ask-question">
+<div class="ask-question">
+    <div class="ask-question__wrapper">
 
+        <div class="text-container">
+            <div class="t-c__header">
+                <div class="header__item"><p>Who will cook?</p></div>
+                <div class="header__header">
+                        I will personally prepare and package
+                        everything beautifully for your event.
+                </div>
+            </div>
+            <div class="t-c__ul">
+                <ul>
+                    <li>I will advise on the choice of cupcakes and come up with a non-standard idea</li>
+                    <li>I will prepare cupcakes for your event that everyone will definitely like</li>
+                    <li>I will pack everything neatly and beautifully if you want to make a nice gift.</li>
+                </ul>
+            </div>
+            <button id="tc-button" class="button">Ask Julia a question</button>
+        </div>
+
+        <div class="image-container"></div>
+    </div>
 </div>
-
 
 </body>
 </html>
