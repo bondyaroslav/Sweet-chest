@@ -376,3 +376,15 @@ li::marker {
     height: 909px;
     max-width: 50%;
 }
+
+
+
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #081130;
+    height: 800px;
+}
+
