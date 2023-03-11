@@ -385,6 +385,6 @@ li::marker {
     flex-direction: column;
     justify-content: space-between;
     background-color: #081130;
-    height: 800px;
+    min-height: 800px;
 }
 
