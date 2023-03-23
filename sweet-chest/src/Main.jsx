@@ -1,10 +1,12 @@
 import React from 'react';
-import FirstScreen from "./First Screen/FirstScreen";
+import FirstScreen from "./Components/First Screen/FirstScreen";
+import Catalog from "./Components/Catalog/Catalog";
 
-const Main = () => {
+const Main = (props) => {
     return (
         <div>
             <FirstScreen/>
+            <Catalog catalogItems={props.catalogItems}/>
         </div>
     );
 };

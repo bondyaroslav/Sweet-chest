@@ -1,10 +1,10 @@
 import React from "react";
 import Main from "./Main";
 
-function App() {
+function App(props) {
     return (
         <div className="App">
-            <Main/>
+            <Main catalogItems={props.catalogItems}/>
         </div>
     );
 }
